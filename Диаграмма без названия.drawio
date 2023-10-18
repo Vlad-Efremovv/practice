@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T18:43:15.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="fJ_o4aqzpDnaG5UOfEnP" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T18:51:55.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="4Ci7lfvoJkTitn9UD9Yo" version="22.0.4" type="github">
   <diagram name="Страница — 1" id="LmjB0ZSwrv9vVTES5k8F">
     <mxGraphModel dx="1386" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CBR8KMcLd60eC-jhFhPT-43" value="ТабельныйНомер" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="CBR8KMcLd60eC-jhFhPT-41">
+        <mxCell id="CBR8KMcLd60eC-jhFhPT-43" value="Наименование" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="CBR8KMcLd60eC-jhFhPT-41">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
