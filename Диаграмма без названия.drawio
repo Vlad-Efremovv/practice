@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T18:59:36.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="62zhH45bOCNEuhN_eol8" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T19:42:40.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="UQ3tRqHrgsnxAi6nx6__" version="22.0.4" type="github">
   <diagram name="Страница — 1" id="LmjB0ZSwrv9vVTES5k8F">
     <mxGraphModel dx="1155" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,13 +14,13 @@
           <mxGeometry x="440" y="435" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CBR8KMcLd60eC-jhFhPT-57" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="100" y="370" width="40" height="40" as="geometry" />
+          <mxGeometry x="100" y="390" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CBR8KMcLd60eC-jhFhPT-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=doubleBlock;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="CBR8KMcLd60eC-jhFhPT-8" target="CBR8KMcLd60eC-jhFhPT-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CBR8KMcLd60eC-jhFhPT-8" value="Оборудование" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="200" width="180" height="150" as="geometry" />
+          <mxGeometry x="40" y="185" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CBR8KMcLd60eC-jhFhPT-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="CBR8KMcLd60eC-jhFhPT-8">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -187,9 +187,12 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CBR8KMcLd60eC-jhFhPT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=doubleBlock;endFill=1;" edge="1" parent="1" source="CBR8KMcLd60eC-jhFhPT-53">
+        <mxCell id="CBR8KMcLd60eC-jhFhPT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=doubleBlock;endFill=1;entryX=0.435;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CBR8KMcLd60eC-jhFhPT-53" target="CBR8KMcLd60eC-jhFhPT-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="330" as="targetPoint" />
+            <mxPoint x="120" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="118" y="455" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CBR8KMcLd60eC-jhFhPT-53" value="хранится" style="rhombus;whiteSpace=wrap;html=1;startSize=30;fontStyle=1;" vertex="1" parent="1">
