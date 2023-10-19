@@ -5,52 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ooobject"
         mc:Ignorable="d"
-        Title="Учет оборудования" Height="700" Width="1000" WindowStartupLocation="CenterScreen">
-    <Window.Resources>
-        <Style x:Key="viewBtn" TargetType="Button" >
-            <Setter Property="Background" Value="WhiteSmoke"/>
-            <Setter Property="Grid.Row" Value="1"/>
-            <Setter Property="FontSize" Value ="20"/>
-            <Setter Property="FontFamily" Value="Comic Sans MS"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border CornerRadius="20" Background="{TemplateBinding Background}">
-                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <EventTrigger RoutedEvent="MouseEnter">
-                    <EventTrigger.Actions>
-                        <BeginStoryboard>
-                            <Storyboard Storyboard.TargetProperty="Background.Color">
-                                <DoubleAnimation Storyboard.TargetProperty="(Button.Opacity)" From="1.0" To="0.5" Duration="0:0:0.5" AutoReverse="True" RepeatBehavior="Forever" />
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </EventTrigger.Actions>
-                </EventTrigger>
-                <EventTrigger RoutedEvent="Button.MouseLeave">
-                    <EventTrigger.Actions>
-                        <BeginStoryboard>
-                            <Storyboard>
-                                <DoubleAnimation Storyboard.TargetProperty="(Button.Opacity)" To="1" Duration="0:0:0.1" />
-                            </Storyboard>
-                        </BeginStoryboard>
-                    </EventTrigger.Actions>
-                </EventTrigger>
-            </Style.Triggers>
+        Title="Учет оборудования" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
 
-        </Style>
-        <Style x:Key="roundingBtn" TargetType="Border">
-            <Setter Property="CornerRadius" Value="25"/>
-        </Style>
-    </Window.Resources>
-
-    <Grid Margin="0,0,0,-6" RenderTransformOrigin="0.505,0.954" >
-
+    <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="https://img.freepik.com/free-photo/large-modern-warehouse-theme-blur-background_1385-1621.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
@@ -61,19 +18,14 @@
             <RowDefinition Height="30*"/>
         </Grid.RowDefinitions>
 
-        <Frame x:Name="MainFrame" />
+        <TextBlock Text="Учёт оборудования" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" TextAlignment="Center" Grid.ColumnSpan="2" Margin="135,0,0,0" Grid.Column="1" />
 
-
-        <TextBlock Text="Учёт оборудования" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" TextAlignment="Center" />
-
-        <Button Style="{StaticResource viewBtn}" Name="signUp" Content="Зарегестрировать устройство" Click="SignUp_Click" Margin="50,155,500,266" Height="70" Width="350"/>
-        <Button Style="{StaticResource viewBtn}" Name="delete" Content="Списать устройство" Click="Delete_Click" Margin="500,155,50,266" Height="70" Width="350" />
-        <Button Style="{StaticResource viewBtn}" Name="sihgnUpCollaborator" Content="Регистрация на сотрудника" Click="sihgnUpCollaborator_Click" Margin="50,334,500,87" Height="70" Width="350" />
-        <Button Style="{StaticResource viewBtn}" Name="viewEquipment" Content="Посмотреть всё оборудование" Click="viewEquipment_Click" Margin="500,334,50,87" Height="70" Width="350" />
-
-
-
+        <Button Style="{StaticResource viewBtn}" Name="signUp" Content="Зарегестрировать устройство" Click="SignUp_Click" Margin="98,104,552,291" Grid.Row="1" />
+        <Button Style="{StaticResource viewBtn}" Name="delete" Content="Списать устройство" Click="Delete_Click" Margin="568,104,82,291" Grid.Row="1"  />
+        <Button Style="{StaticResource viewBtn}" Name="sihgnUpCollaborator" Content="Регистрация на сотрудника" Click="sihgnUpCollaborator_Click" Margin="98,259,552,136" Grid.Row="1"/>
+        <Button Style="{StaticResource viewBtn}" Name="viewEquipment" Content="Посмотреть всё оборудование" Click="viewEquipment_Click" Margin="568,251,82,144" Grid.Row="1" />
 
     </Grid>
 
 </Window>
+
