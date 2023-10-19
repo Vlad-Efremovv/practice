@@ -8,23 +8,7 @@
         Title="Учет оборудования" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="https://img.freepik.com/free-photo/large-modern-warehouse-theme-blur-background_1385-1621.jpg" Stretch="UniformToFill"/>
-        </Grid.Background>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="501*"/>
-            <RowDefinition Height="30*"/>
-        </Grid.RowDefinitions>
-
-        <TextBlock Text="Учёт оборудования" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" TextAlignment="Center" Grid.ColumnSpan="2" Margin="135,0,0,0" Grid.Column="1" />
-
-        <Button Style="{StaticResource viewBtn}" Name="signUp" Content="Зарегестрировать устройство" Click="SignUp_Click" Margin="98,104,552,291" Grid.Row="1" />
-        <Button Style="{StaticResource viewBtn}" Name="delete" Content="Списать устройство" Click="Delete_Click" Margin="568,104,82,291" Grid.Row="1"  />
-        <Button Style="{StaticResource viewBtn}" Name="sihgnUpCollaborator" Content="Регистрация на сотрудника" Click="sihgnUpCollaborator_Click" Margin="98,259,552,136" Grid.Row="1"/>
-        <Button Style="{StaticResource viewBtn}" Name="viewEquipment" Content="Посмотреть всё оборудование" Click="viewEquipment_Click" Margin="568,251,82,144" Grid.Row="1" />
-
+        <Frame Name="MainFrame" />
     </Grid>
 
 </Window>

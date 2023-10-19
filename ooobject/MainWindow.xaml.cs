@@ -24,7 +24,7 @@ namespace ooobject
         public MainWindow()
         {
             InitializeComponent();
-            //MainFrame.Navigate(new MainMenu());
+            MainFrame.Navigate(new MenuPage());
 
             //DoubleAnimation buttonAnimation = new DoubleAnimation();
             //buttonAnimation.From = signUp.ActualWidth;
