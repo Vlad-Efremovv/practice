@@ -26,5 +26,6 @@
         <Button Style="{StaticResource viewBtn}" Name="sihgnUpCollaborator" Content="Регистрация на сотрудника" Click="sihgnUpCollaborator_Click" Margin="98,259,552,136" Grid.Row="1"/>
         <Button Style="{StaticResource viewBtn}" Name="viewEquipment" Content="Посмотреть всё оборудование" Click="viewEquipment_Click" Margin="568,251,82,144" Grid.Row="1" />
 
+        <Frame Name="MenuFrame" />
     </Grid>
 </Page>

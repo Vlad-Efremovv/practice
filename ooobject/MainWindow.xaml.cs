@@ -32,26 +32,5 @@ namespace ooobject
             //buttonAnimation.Duration = TimeSpan.FromSeconds(1);
             //signUp.BeginAnimation(Button.WidthProperty, buttonAnimation);
         }
-
-        private void SignUp_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Delete_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void viewEquipment_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void sihgnUpCollaborator_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
     }
 }

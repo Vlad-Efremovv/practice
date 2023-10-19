@@ -23,11 +23,11 @@ namespace ooobject
         public MenuPage()
         {
             InitializeComponent();
-        }
+                    }
 
         private void signUp_Click(object sender, RoutedEventArgs e)
         {
-
+            MenuFrame.Navigate(new SignUpNewPage());
         }
 
         private void delete_Click(object sender, RoutedEventArgs e)
