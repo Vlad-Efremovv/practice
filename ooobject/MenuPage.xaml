@@ -24,8 +24,9 @@
         <Button Style="{StaticResource viewBtn}" Name="signUpNew" Content="Зарегестрировать устройство" Click="signUp_Click" Margin="98,104,552,291" Grid.Row="1" />
         <Button Style="{StaticResource viewBtn}" Name="delete" Content="Списать устройство" Click="delete_Click" Margin="568,104,82,291" Grid.Row="1"  />
         <Button Style="{StaticResource viewBtn}" Name="sihgnUpCollaborator" Content="Регистрация на сотрудника" Click="sihgnUpCollaborator_Click" Margin="98,259,552,136" Grid.Row="1"/>
-        <Button Style="{StaticResource viewBtn}" Name="viewEquipment" Content="Посмотреть всё оборудование" Click="viewEquipment_Click" Margin="568,251,82,144" Grid.Row="1" />
+        <Button Style="{StaticResource viewBtn}" Name="viewEquipment" Content="Посмотреть всё оборудование" Click="viewEquipment_Click" Margin="568,259,82,136" Grid.Row="1" />
 
         <Frame Name="MenuFrame" />
+        
     </Grid>
 </Page>
